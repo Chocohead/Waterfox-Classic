@@ -13180,7 +13180,7 @@ class MIsNullOrUndefined
       public BoxInputsPolicy::Data
 {
     explicit MIsNullOrUndefined(MDefinition* value)
-        : MUnaryInstruction(classOpcode, value) {
+        : MUnaryInstruction(value) {
       setResultType(MIRType::Boolean);
       setMovable();
     }
