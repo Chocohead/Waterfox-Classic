@@ -60,8 +60,6 @@ ac_add_options --enable-application=js
 ac_add_options --enable-optimize
 mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/obj-debug-@CONFIG_GUESS@
 
-ac_add_options --enable-rust-simd # on x86 requires SSE2
-
 ac_add_options --with-app-name=waterfox
 ac_add_options --with-app-basename=Waterfox
 ac_add_options --with-branding=browser/branding/unofficial
